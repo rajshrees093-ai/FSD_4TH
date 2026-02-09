@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <p id="text"> heyaaaaaaaaaaa </p> <!--in its js dom and event will be used-->
+        <button onclick="Toggletext()">Show and hide </button>
+
+        <script>
+            function Toggletext(){
+                let t=document.getElementById("text"); //!--apply condition ie display, none and block--> conditiom is applied to t
+                if(t.style.display==="none"){ //if content is hidden
+                    t.style.display="block"; //these condition will check whether content is hidden or not
+                }
+                else{
+                    t.style.display="none"; //if content is visible then hide it
+                }
+            }
+        </script>
+  
+</body>
+
+</html>
