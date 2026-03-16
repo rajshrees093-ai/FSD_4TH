@@ -10,7 +10,7 @@ let user={
 
 let copyuser={...user};
 
-copyuser.address.city="patna";
+copyuser.name="nidhi";
 
 console.log(user);
 console.log(copyuser);
