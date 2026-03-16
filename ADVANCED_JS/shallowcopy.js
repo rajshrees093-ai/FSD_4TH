@@ -1,4 +1,4 @@
-//shallow copy
+//shallow copy - works on nested loops only
 let user={
     name:"rajshree",
     age:21,
