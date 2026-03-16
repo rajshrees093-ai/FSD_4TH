@@ -10,5 +10,5 @@ let user={
 
  deepcopy.address.city="delhi";
  console.log(user);
- console.log(deepcopy);/
+ console.log(deepcopy);
 
