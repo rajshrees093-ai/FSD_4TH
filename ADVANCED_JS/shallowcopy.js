@@ -8,9 +8,15 @@ let user={
     }
 };
 
-let copyuser={...user};
+// let copyuser={...user};
 
-copyuser.name="nidhi";
+// copyuser.name="nidhi";
+
+// console.log(user);
+// console.log(copyuser);/
+
+let copyuser=Object.assign({},user);
+copyuser.address.pincode=800026;
 
 console.log(user);
 console.log(copyuser);
